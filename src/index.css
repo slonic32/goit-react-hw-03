@@ -30,3 +30,8 @@ img {
   max-width: 1280px;
   margin: auto;
 }
+
+label,
+input {
+  display: block;
+}

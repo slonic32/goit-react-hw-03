@@ -54,7 +54,7 @@ export default function App() {
   const [filter, setFilter] = useState("");
 
   return (
-    <div className={css.app}>
+    <div className="container">
       <h1 className={css.header}>Phonebook</h1>
       <ContactForm addContact={addContact} />
       <SearchBox filter={filter} setFilter={setFilter} />
